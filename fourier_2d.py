@@ -171,6 +171,8 @@ reader = MatReader(TRAIN_PATH)
 x_train = reader.read_field('coeff')[:ntrain,::r,::r][:,:s,:s]
 y_train = reader.read_field('sol')[:ntrain,::r,::r][:,:s,:s]
 
+print(x_train.shape)
+
 reader.load_file(TEST_PATH)
 x_test = reader.read_field('coeff')[:ntest,::r,::r][:,:s,:s]
 y_test = reader.read_field('sol')[:ntest,::r,::r][:,:s,:s]
