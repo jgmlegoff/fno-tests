@@ -1,4 +1,6 @@
-# Fourier Neural Operator
+# Fourier Neural Operator Test on SSH downscaling task
+
+Work made during ennd of study internship to adapt FNO official implementation and test it on the task of downscaling SSH (Sea Surface Height).
 
 This repository contains the code for the paper:
 - [(FNO) Fourier Neural Operator for Parametric Partial Differential Equations](https://arxiv.org/abs/2010.08895)
